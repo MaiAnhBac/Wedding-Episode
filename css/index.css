@@ -147,6 +147,7 @@ html {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-left: 10px;
 }
 .location-map {
     display: flex;
