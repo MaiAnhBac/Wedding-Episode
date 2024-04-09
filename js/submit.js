@@ -6,6 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById('btn-submit')
     btn.addEventListener('click', (e) => {
         e.preventDefault();
+        if (name.value === '' || (sex_girl.checked === false && sex_boy.checked === false) || wish.value === '') {
+            alert("Vui lòng điền đầy đủ thông tin trước khi gửi.");
+            return; // Dừng hàm nếu thông tin chưa được điền đầy đủ
+        }
         let gender = ''
         if (sex_girl.checked) {
             gender = sex_girl.value;
