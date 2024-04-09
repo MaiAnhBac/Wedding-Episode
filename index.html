@@ -187,7 +187,7 @@
                     </div>
                     <h2 class="form-title">Gửi lời chúc tới chúng mình nha!</h2>
                     <label class="form-lb" for="">Ấy ơi, bạn tên gì nhỉ 🙈</label>
-                    <input type="text" placeholder="Họ và tên" required>
+                    <input type="text" id="name" placeholder="Họ và tên" required>
                     <label class="form-lb" for="">Bạn của</label>
                     <div class="radio">
                         <input type="radio" id="nu" name="radio" checked>
@@ -196,9 +196,9 @@
                         <label for="nam">🤵</label>
                     </div>
                     <label class="form-lb" for="">Lời chúc</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Lời chúc gửi đến chúng mình" required></textarea>
+                    <textarea name="" id="wish" cols="30" rows="10" placeholder="Lời chúc gửi đến chúng mình" required></textarea>
                     <div class="btn">
-                        <button type="submit">Gửi lời chúc <i class="fa-regular fa-heart"></i></button>
+                        <button id="btn-submit" type="submit">Gửi lời chúc <i class="fa-regular fa-heart"></i></button>
                     </div>
                 </form>
             </div>
@@ -225,5 +225,6 @@
         <div class="snowflake"><img src="../img/icons8-heart.gif"></div>
     </div>
     <script src="./js/script.js"></script>
+    <script src="./js/submit.js"></script>
 </body>
 </html>
