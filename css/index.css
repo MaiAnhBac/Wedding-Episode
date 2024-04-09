@@ -153,6 +153,7 @@ html {
     justify-content: center;
     padding: 20px;
     flex-direction: column;
+    align-items: center;
     font-family: var(--font-text);
 }
 .location-map .map {
@@ -161,7 +162,6 @@ html {
 }
 .location-map iframe {
     padding: 10px;
-    margin-left: -15px;
 }
 .coutdown {
     text-align: center;
