@@ -4,6 +4,7 @@
     }
     .wedding .top .date {
         font-size: 2.2rem;
+        margin-left: -10px;
     }
     .wedding .top .date .day, .months {
         font-size: 5.2rem;
