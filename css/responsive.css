@@ -9,6 +9,13 @@
     .wedding .top .date .day, .months {
         font-size: 5.2rem;
     }
+    .information .information-boy .img-boy {
+        width: 140px;
+        height: 140px;
+    }
+    .information .information-boy .bottom .groom {
+        font-size: 1.7rem;
+    }
 }
 @media only screen and (max-width: 414px) {
     .information .heart .heart-gif {
@@ -19,5 +26,8 @@
     }
     .date-or-location .location {
         font-size: 1.8rem;
+    }
+    .represent .represent-mid .mid-left .grandfather, .grandma, .mid-right .grandfather, .grandma {
+        font-size: 1.5rem;
     }
 }
