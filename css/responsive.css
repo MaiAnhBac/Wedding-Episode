@@ -17,4 +17,7 @@
     .wedding .top .name-boy, .name-girl {
         font-size: 3rem;
     }
+    .date-or-location .location {
+        font-size: 1.8rem;
+    }
 }
