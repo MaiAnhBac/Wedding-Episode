@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Jura:wght@300;400&family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Jura:wght@300;400&family=MonteCarlo&family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Jura:wght@300;400&family=MonteCarlo&family=Pattaya&family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Jura:wght@300;400&family=MonteCarlo&family=Pattaya&family=Podkova&family=Tourney:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+:root {
+    --font-title: 'MonteCarlo', cursive;
+    --font-text: 'Jura', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.wedding{
+    
+}
+.wedding .wedding-content{
+
+}
+.wedding .top{
+    padding: 20px;
+    background: #FDF3F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.wedding .top .name-boy, .name-girl {
+    font-size: 5.2rem;
+    font-family: var(--font-title);
+}
+.wedding .top .date {
+    font-size: 3.2rem;
+    font-family: var(--font-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wedding .top .date .day, .months {
+    color: #8B4513;
+    font-weight: bold;
+    font-size: 7.2rem;
+}
+.wedding-img {
+}
+.wedding-img .img-marry {
+    width: 100%;
+    object-fit: cover;
+}
+.content {
+    text-align: center;
+    padding: 20px;
+    font-family: var(--font-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.content i {
+    font-size: 2.2rem;
+}
+.content .text {
+    font-size: 3.2rem;
+}
+.information {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    font-family: var(--font-text);
+}
+.information .information-boy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information .information-boy .img-boy {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 5px solid #FDF3F4;
+}
+.information .information-boy .speech {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.information .information-boy .bottom {
+    padding: 20px 0;
+    text-align: center;
+}
+.information .information-boy .bottom .groom {
+    margin-bottom: 8px;
+    font-size: 2rem;
+}
+.information .heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information .heart .heart-gif {
+    width: 80px;
+}
+.invitation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.invitation .invitation-top {
+    font-family: var(--font-text);
+    width: 400px;
+    text-align: center;
+}
+.invitation .invitation-top .invitation-title {
+    font-size: 3.2rem;
+    margin-bottom: 6px;
+}
+.invitation .invitation-top .invitation-text {
+    font-size: 1.5rem;
+}
+.date-or-location {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 40px);
+    padding: 20px;
+    font-family: var(--font-text);
+}
+.date-or-location .location {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border-right: 3px solid black;
+    text-align: end;
+    padding-right: 10px;
+    font-size: 2rem;
+    gap: 5px;
+}
+.date-or-location .time {
+    width: 30%;
+    font-size: 8.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.location-map {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    font-family: var(--font-text);
+}
+.location-map .map {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.coutdown {
+    text-align: center;
+    font-family: var(--font-text);
+}
+.coutdown .coutdown-time .coutdown-h2 {
+    font-size: 2.2rem;
+}
+.coutdown .week {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.coutdown .week .week-time {
+    display: flex;
+    flex-direction: column;
+}
+.coutdown .week .week-time .week-title {
+    width: 70px;
+    height: 30px;
+    background: #8B4513;
+    border-radius: 15px 15px 0 0;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.coutdown .week .week-time .week-day {
+    width: 70px;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    line-height: 40px;
+} 
+.represent {
+    text-align: center;
+    font-family: var(--font-text);
+}
+.represent .represent-top .top-h2 {
+    font-size: 2rem;
+}
+.represent .represent-mid {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 20px;
+    font-size: 1.7rem;
+}
+.thanks {
+    text-align: center;
+}
+.thanks .thanks-top {
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+}
+.photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 10px;
+    gap: 10px;
+}
+.photo .box-photo {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.photo .box-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.photo .box-photo .our-photo {
+    font-family: var(--font-text);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.photo .box-photo .our-photo span {
+    color: #8B4513;
+}
+.photo .box {
+    grid-row: span 2;
+}
+.photo .box2 {
+    grid-row: span 2;
+}
+.photo .box3 {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo .box6 {
+    grid-column: span 2;
+}
+.photo .box11 {
+    grid-column: span 2;
+}
+.photo .box12 {
+    grid-column: span 2;
+}
+.photo-wedding {
+    padding: 10px;
+}
+.photo-wedding .img {
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.conclude {
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+}
+.form-you {
+    font-family: var(--font-text);
+}
+.form-you .form-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+.form-you .form-top .form-h2 {
+    font-weight: 700;
+    background: #FDF3F4;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+.form-you .form-top .form-text {
+    width: 350px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.form-you .form-top .regards {
+    font-size: 1.2rem;
+}
+.form-you form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    margin: 20px;
+    border: 3px solid #916042;
+}
+.form-you form .logo-img {
+    text-align: center;
+}
+.form-you form .form-title {
+    color: #9E6B4B;
+    font-family: "Pattaya", Sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 3px 2px 53px #F5DFEF;
+    text-align: center;
+}
+.form-you form .form-lb {
+    font-family: "Podkova", Sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 15px 0;
+    color: #916042;
+}
+.form-you form input {
+    background-color: #ffffff;
+    border: 1px solid #916042;
+    padding: 10px;
+    outline: none;
+    color: #916042;
+}
+.form-you form .radio {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-size: 1.7rem;
+}
+.form-you form .radio input {
+  margin: 0 10px 0 15px;
+  cursor: pointer;
+}
+.form-you form textarea {
+  color: #916042;
+  border: 1px solid #916042;
+  padding: 10px;
+  outline: none;
+}
+.form-you form .btn {
+  display: flex;
+  justify-content: center;
+}
+.form-you form .btn button {
+  width: 150px;
+  height: 50px;
+  font-family: "Podkova", Sans-serif;
+  background: #916042;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  font-size: 1.7rem; 
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+footer .footer-name {
+    color: #8B4513;
+}
