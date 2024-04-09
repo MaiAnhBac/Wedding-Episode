@@ -9,3 +9,8 @@
         font-size: 5.2rem;
     }
 }
+@media only screen and (max-width: 414px) {
+    .information .heart .heart-gif {
+        width: 50px;
+    }
+}
