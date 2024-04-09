@@ -13,4 +13,7 @@
     .information .heart .heart-gif {
         width: 50px;
     }
+    .wedding .top .name-boy, .name-girl {
+        font-size: 3rem;
+    }
 }
