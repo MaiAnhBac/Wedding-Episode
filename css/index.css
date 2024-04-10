@@ -169,7 +169,7 @@ html {
     font-family: var(--font-text);
 }
 .coutdown .coutdown-time .coutdown-h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 .coutdown .week {
     display: flex;
