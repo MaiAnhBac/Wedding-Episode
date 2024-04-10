@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("myform")
     const name = document.getElementById('name')
     const sex_girl = document.getElementById('nu')
     const sex_boy = document.getElementById('nam')
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       
         postDataGG(data);
         alert("Gửi lời chúc thành công! Cảm ơn bạn nhiều nha ");
+        form.reset();
     })
     async function postDataGG(data) {
         const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSeVmL8v9DdL5PhLlIGj706CJoZ_QocU6Ogy2PPkqw5hdGyQLA/formResponse";
