@@ -263,6 +263,18 @@ html {
 .photo .box12 {
     grid-column: span 2;
 }
+.photo .box15 {
+    grid-column: span 2;
+}
+.photo .box16 {
+    grid-column: span 3;
+}
+.photo .box17 {
+    grid-column: span 2;
+}
+.photo .box20 {
+    grid-column: span 2;
+}
 .photo-wedding {
     padding: 10px;
 }
