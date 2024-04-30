@@ -314,6 +314,24 @@ html {
 .photo .box44 {
     grid-column: span 2;
 }
+.photo .box46 {
+    grid-column: span 3;
+}
+.photo .box48 {
+    grid-column: span 2;
+}
+.photo .box49 {
+    grid-column: span 3;
+}
+.photo .box50 {
+    grid-column: span 2;
+}
+.photo .box52 {
+    grid-column: span 3;
+}
+.photo .box53 {
+    grid-column: span 3;
+}
 .photo-wedding {
     padding: 10px;
 }
